@@ -1,0 +1,113 @@
+
+/* slider */
+.sidebar-toggle {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    border-color: transparent;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .sidebar {
+    position: absolute;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100%;
+    background-color: #2a2a2a;
+    padding: 20px;
+    transition: right 0.3s ease-in-out;
+    color: white;
+  }
+  
+  .sidebar.open {
+    width: 40%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #2a2a2a;
+    overflow-y: auto;
+  }
+  
+  .img {
+    position: relative;
+  }
+  
+ 
+  img {
+    background-size: cover;
+    height: 100%;
+    gap: 9rem;
+    column-gap: 1rem;
+    width: 6rem;
+    margin-bottom: 1rem;
+  }
+  .links {
+    gap: 1rem;
+    display: flex;
+  }
+/* slider */
+.sidebar-toggle {
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+  border-color: transparent;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  right: -200px;
+  width: 200px;
+  height: 100%;
+  background-color: #2a2a2a;
+  padding: 20px;
+  transition: right 0.3s ease-in-out;
+  color: white;
+}
+
+.sidebar.open {
+  width: 40%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #2a2a2a;
+}
+
+.ibutton {
+  position: relative;
+}
+
+.background .ibutton {
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  margin: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+.ibutton {
+  background-size: cover;
+  height: 100%;
+  gap: 9rem;
+  column-gap: 1rem;
+  width: 6rem;
+  margin-bottom: 1rem;
+}
+.links {
+  display: flex;
+  max-height: 400px;
+}

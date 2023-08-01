@@ -11,8 +11,8 @@ function Player() {
       setIsOpen(!isOpen);
     };
   return (
-    <div className="player container mt-4">
-          <div className="col-md-8">
+    <div className="player">
+          <div className="col">
             <div className="embed-responsive embed-responsive-16by9">
               <div className="ratio ratio-16x9">
                 <div className="background">

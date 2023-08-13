@@ -8,7 +8,7 @@ function Ibutton({ isOpen, toggleSidebar }) {
         <nav className="nav">
           <ui>
             <li>
-              <div className="links">
+              <div className="continer links">
                 <PlaylistScreen />
               </div>
             </li>
